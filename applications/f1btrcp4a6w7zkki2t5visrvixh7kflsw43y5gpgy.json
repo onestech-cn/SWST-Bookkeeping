@@ -9,7 +9,7 @@
     "Website": "https://glad.umd.edu/ard/home",
     "Social Media": "https://glad.umd.edu/contact",
     "Social Media Type": "Other",
-    "Role": "Dataset Owner"
+    "Role": "Data Preparer"
   },
   "Project": {
     "Brief history of your project and organization": "The Landsat Analysis Ready Data (ARD) created by the Global Land Analysis and Discovery Lab (GLAD) at the University of Maryland serves as a spatially and temporally consistent input for land cover mapping and change detection at global to local scales. The GLAD ARD represents a 16-day time series of globally consistent, tiled Landsat normalized surface reflectance from 1997 to the present operationally updated every 16 days. Only data from 2020 to present available on the AWS, older data is available through the UMD API. The Global Land Analysis and Discovery (GLAD) laboratory in the Department of Geographical Sciences at the University of Maryland investigates methods, causes and impacts of global land surface change. Earth observation imagery are the primary data source and land cover extent and change the primary topic of interest. The lab is led by Dr. Matthew Hansen. The team consists of full-time researchers, post-docs and doctoral students with diverse backgrounds.",
