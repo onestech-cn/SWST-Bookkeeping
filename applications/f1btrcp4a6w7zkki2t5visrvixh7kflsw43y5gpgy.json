@@ -20,10 +20,10 @@
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://glad.landsat.ard/data/tiles/ --recursive",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
-    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03623232 \nf03644142 \nf03645007 \nf02827843 \nf02827109 \nf02826602 \nf02825675",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03645007 \nf03644142 \nf03645884 \nf03645883 \nf03645885",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -31,11 +31,11 @@
     "Data Type": "Slingshot",
     "Total Requested Amount": "11PiB",
     "Single Size Dataset": "1.31PiB",
-    "Replicas": 8,
+    "Replicas": 5,
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "AdditionalInfoRequired",
+    "State": "AdditionalInfoSubmitted",
     "Validated At": "",
     "Validated By": "",
     "Active": true,
