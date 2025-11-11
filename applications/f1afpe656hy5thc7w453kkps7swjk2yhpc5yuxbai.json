@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
+  "Issue Number": "8",
+  "Client": {
+    "Name": "US National Oceanic and Atmospheric Administration",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://registry.opendata.aws/noaa-nws-graphcastgfs-pds/",
+    "Social Media": "https://github.com/noaa-emc/graphcast",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The NOAA GraphCastGFS is an experimental medium-range global weather forecasting model developed by NOAA’s National Centers for Environmental Prediction (NCEP). Built on Google DeepMind’s GraphCast machine learning framework, it uses a message-passing graph neural network (GNN) with an encoder-processor-decoder architecture on an icosahedral grid. The model is initialized with NCEP’s 0.25° GDAS analysis data and fine-tuned using ECMWF ERA5 reanalysis as ground truth.It generates forecasts from current and 6-hour-prior states, outputting key atmospheric and surface variables (temperature, wind components, geopotential height, specific humidity, vertical velocity) across 13 vertical levels (v2/v2.1; v2 removed 37-layer version for efficiency). Forecasts are produced at 6-hour intervals, up to 10 days (v2.1 extends to 16 days from July 10, 2024 06Z), with four daily cycles (00Z, 06Z, 12Z, 18Z) at ~28 km resolution.Data is stored in AWS Open Data (S3 bucket: noaa-nws-graphcastgfs-pds, us-east-1) in GRIB2 (forecasts) and NetCDF (inputs), accessible without an AWS account via CLI (aws s3 ls --no-sign-request) or browser. New data notifications are available via SNS.Applications include agriculture, disaster response, climate monitoring, and research. NOAA data is CC0; model weights (v2) follow CC BY-NC-SA 4.0. Documentation: https://graphcastgfs.readthedocs.io.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "GraphCastGFS is NCEP’s experimental medium-range global forecast system with 0.25° latitude-longitude resolution (~28 km). It runs four cycles daily (00Z, 06Z, 12Z, 18Z), delivering 6-hourly forecasts up to 10 days in GRIB2 format. Key fields include temperature, wind components, geopotential height, specific humidity, and vertical velocity.Built on Google DeepMind’s pre-trained GraphCast MLWP model, it uses an encoder-processor-decoder graph neural network on an icosahedral grid with ~37 million parameters, trained on ECMWF ERA5 reanalysis. Initialized with current and 6-hour-prior NCEP GDAS 0.25° analysis states, it runs 37-level GraphCast and 13-level GraphCast_operational versions. Unit conversions ensure output consistency with GFS products.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "I shall proceed thus. First, using the AWS CLI over a dedicated network, I will download all NOAA GraphCastGFS metadata with aws s3 cp --no-sign-request. Second, I will employ the go-car tool to bundle these files into verifiable CAR archives. Third, I will deliver the CAR files to the Storage Provider via hard drives or secure network transfer, ensuring compliance with CC0 and CC BY-NC-SA 4.0 licences.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://noaa-nws-graphcastgfs-pds/\n\nhttps://noaa-nws-graphcastgfs-pds.s3.amazonaws.com/index.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02827565  Vietnam  \nf02826715  United States  \nf02825420  Taiwan  \nf03663680  Hong Kong  \nf03663684  Hong Kong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2.35PiB",
+    "Single Size Dataset": "474.1 TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-11-11 14:51:01.306957404 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
