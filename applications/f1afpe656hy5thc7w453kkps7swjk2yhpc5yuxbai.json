@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
   "Issue Number": "8",
+  "Client Contract Address": "f410fdtmld7fdg4qhnxnl6jicpjbqm2xtxga4pxke5ga",
   "Client": {
     "Name": "US National Oceanic and Atmospheric Administration",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "KYCRequested",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-11-12 16:02:23.841835261 UTC",
+    "Validated By": "onestech-cn",
     "Active": true,
-    "Updated At": "2025-11-11 15:08:48.464138238 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-11-12 16:02:23.841839827 UTC",
+    "Active Request ID": "7d733932-2b70-4117-b233-26d6ae1feff2",
     "On Chain Address": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "7d733932-2b70-4117-b233-26d6ae1feff2",
+      "Request Type": "First",
+      "Created At": "2025-11-12 16:02:23.841842118 UTC",
+      "Updated At": "2025-11-12 16:02:23.841843281 UTC",
+      "Active": true,
+      "Allocation Amount": "131941395333120 B",
+      "Signers": []
+    }
+  ]
 }
