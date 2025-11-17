@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-11-17 02:09:26.432446313 UTC",
+    "State": "Granted",
+    "Validated At": "2025-11-17 02:13:37.702352394 UTC",
     "Validated By": "onestech-cn",
     "Active": true,
-    "Updated At": "2025-11-17 02:09:26.432450571 UTC",
+    "Updated At": "2025-11-17 02:13:37.702348718 UTC",
     "Active Request ID": "578dbea1-f13c-4cd4-8eeb-365d43eae415",
     "On Chain Address": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
     "Multisig Address": "false",
@@ -88,9 +88,18 @@
       "Request Type": "Refill",
       "Created At": "2025-11-17 02:09:26.432458121 UTC",
       "Updated At": "2025-11-17 02:09:26.432459090 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "562949953421312B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "562949953421312B",
+      "Signers": [
+        {
+          "Github Username": "onestech-cn",
+          "Signing Address": "f1vhuylefto74wllu2f7zppgdg3d3y4e2svo3psza",
+          "Created At": "2025-11-17 02:13:34.859000000 UTC",
+          "Message CID": "bafy2bzacedvlggrf6t7e22usc3karagwbouomnjanbgh7igg7sqvdhudu3wye",
+          "Increase allowance CID": "bafy2bzacebiegekn4r7wah4a72wpcgvyjdvz2vlhk7evqka4niyofbaks23vq"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
