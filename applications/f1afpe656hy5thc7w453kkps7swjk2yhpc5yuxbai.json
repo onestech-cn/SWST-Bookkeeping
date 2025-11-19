@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-11-17 07:30:03.107687568 UTC",
+    "Validated At": "2025-11-19 03:03:34.288409720 UTC",
     "Validated By": "onestech-cn",
     "Active": true,
-    "Updated At": "2025-11-17 07:30:03.107686735 UTC",
-    "Active Request ID": "eb24a721-590a-4e46-ae2b-1c46797b61b8",
+    "Updated At": "2025-11-19 03:03:34.288407793 UTC",
+    "Active Request ID": "826ff9c3-735a-44a9-b8c6-90d025a1d7ed",
     "On Chain Address": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
     "Multisig Address": "false",
     "edited": false
@@ -153,6 +153,34 @@
           "Add Allowed Storage Providers CID": {
             "bafy2bzacebv7hxsk2b7ts7adgdv37eve4pi6rumvwr2ouefi566cplq2k535w": [
               "3624256"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "3eb711bb-a422-49dd-9de2-9b8612d649bd",
+      "Created At": "2025-11-19 03:03:34.288382853 UTC",
+      "Updated At": "2025-11-19 03:03:34.288388133 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3663680,
+        3663684,
+        2827565,
+        2826715,
+        2825420,
+        3624256,
+        2827377,
+        2827448
+      ],
+      "Signers": [
+        {
+          "Github Username": "onestech-cn",
+          "Signing Address": "f1vhuylefto74wllu2f7zppgdg3d3y4e2svo3psza",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacead2kaw5zuzntwg3fczi5ee55uqtbpsocvxhu2r52iorjdu4lb46g": [
+              "2827377",
+              "2827448"
             ]
           }
         }
