@@ -36,12 +36,12 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-11-19 03:03:34.288409720 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2025-11-20 00:57:39.035332069 UTC",
     "Validated By": "onestech-cn",
     "Active": true,
-    "Updated At": "2025-11-19 03:03:34.288407793 UTC",
-    "Active Request ID": "826ff9c3-735a-44a9-b8c6-90d025a1d7ed",
+    "Updated At": "2025-11-20 00:57:39.035336939 UTC",
+    "Active Request ID": "b592b81d-ad94-49a4-89f6-2ce3821b1682",
     "On Chain Address": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
     "Multisig Address": "false",
     "edited": false
@@ -100,6 +100,15 @@
           "Increase allowance CID": "bafy2bzacebiegekn4r7wah4a72wpcgvyjdvz2vlhk7evqka4niyofbaks23vq"
         }
       ]
+    },
+    {
+      "ID": "b592b81d-ad94-49a4-89f6-2ce3821b1682",
+      "Request Type": "Refill",
+      "Created At": "2025-11-20 00:57:39.035344321 UTC",
+      "Updated At": "2025-11-20 00:57:39.035344955 UTC",
+      "Active": true,
+      "Allocation Amount": "450799767388160B",
+      "Signers": []
     }
   ],
   "Storage Providers Change Requests": [
