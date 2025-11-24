@@ -36,7 +36,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-11-20 01:00:10.294193834 UTC",
     "Validated By": "onestech-cn",
     "Active": true,
@@ -44,7 +44,7 @@
     "Active Request ID": "b592b81d-ad94-49a4-89f6-2ce3821b1682",
     "On Chain Address": "f1afpe656hy5thc7w453kkps7swjk2yhpc5yuxbai",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
