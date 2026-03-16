@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2026-03-16 07:12:13.344874849 UTC",
+    "Validated At": "2026-03-16 10:42:39.984514487 UTC",
     "Validated By": "onestech-cn",
     "Active": true,
-    "Updated At": "2026-03-16 07:12:13.344879475 UTC",
+    "Updated At": "2026-03-16 10:42:39.984513147 UTC",
     "Active Request ID": "a0e10103-8975-44eb-9022-e960679e8dd3",
     "On Chain Address": "f1qye73n7dut5apa7lorkj27ta43llprzqkuqdbca",
     "Multisig Address": "false",
@@ -55,6 +55,38 @@
       "Active": true,
       "Allocation Amount": "54975581388800 B",
       "Signers": []
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "67cd7e39-4fd0-417c-a1af-5debc0becf55",
+      "Created At": "2026-03-16 10:42:39.984500900 UTC",
+      "Updated At": "2026-03-16 10:42:39.984505830 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2827711,
+        2825740,
+        2827493,
+        2827667,
+        2826371
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "onestech-cn",
+          "Signing Address": "f1vhuylefto74wllu2f7zppgdg3d3y4e2svo3psza",
+          "Set Max Deviation CID": "bafy2bzaceaywbsdj4l5cyqt7csghhe4bzvseugwykorqam66keg57hp7bkfsy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceatyo5djquu6u5qbrwwtpucq6u2k6v67zauanoh3wey7nd642k5ro": [
+              "2827711",
+              "2825740",
+              "2827493",
+              "2827667",
+              "2826371"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
