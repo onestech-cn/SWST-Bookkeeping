@@ -35,11 +35,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2026-05-06 02:48:53.967508729 UTC",
+    "State": "Granted",
+    "Validated At": "2026-05-06 02:50:38.261570853 UTC",
     "Validated By": "onestech-cn",
     "Active": true,
-    "Updated At": "2026-05-06 02:48:53.967512443 UTC",
+    "Updated At": "2026-05-06 02:50:38.261566949 UTC",
     "Active Request ID": "133401a1-4221-4a68-9fab-09c3e5dd8358",
     "On Chain Address": "f1btrcp4a6w7zkki2t5visrvixh7kflsw43y5gpgy",
     "Multisig Address": "false",
@@ -131,9 +131,16 @@
       "Request Type": "Refill",
       "Created At": "2026-05-06 02:48:53.967519889 UTC",
       "Updated At": "2026-05-06 02:48:53.967520669 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2842897264777625B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "onestech-cn",
+          "Signing Address": "f1vhuylefto74wllu2f7zppgdg3d3y4e2svo3psza",
+          "Created At": "2026-05-06 02:50:35.733000000 UTC",
+          "Message CID": "bafy2bzacede72uflg37t72x2himsvfofeu54a57cq34s7wdd5555sbgyf7x7u"
+        }
+      ]
     }
   ]
 }
